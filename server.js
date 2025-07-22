@@ -24,7 +24,7 @@ app.post("/webhook", async (req, res) => {
   const entries = req.body.entry || [];
   for (const entry of entries) {
     for (const change of entry.changes || []) {
-      const phoneId = "729487406911526"d;
+      const phoneId = 729487406911526;
       for (const message of change.value.messages || []) {
         const text = message.text?.body?.trim().toLowerCase();
         if (text === "promo speedwash") {
