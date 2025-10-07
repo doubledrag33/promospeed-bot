@@ -1,2 +1,17 @@
-node_modules/
+# General
+.DS_Store
 .env
+.env.*
+*.pyc
+__pycache__/
+.coverage
+htmlcov/
+.mypy_cache/
+.pytest_cache/
+.next/
+dist/
+build/
+node_modules/
+coverage/
+playwright-report/
+!.env.example
