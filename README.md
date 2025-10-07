@@ -14,6 +14,7 @@ Pytest/Playwright e infrastruttura Docker Compose pronta per ambienti di svilupp
 - [Testing](#testing)
 - [Qualità & CI](#qualità--ci)
 - [Struttura directory](#struttura-directory)
+- [Checklist QA](#checklist-qa)
 - [FAQ](#faq)
 - [Note privacy e legali](#note-privacy-e-legali)
 
@@ -101,6 +102,10 @@ gropt/
   tests/
 ```
 Dettagli nel file tree reale.
+
+## Checklist QA
+Una checklist dettagliata delle verifiche manuali e automatiche è disponibile in [docs/QA_CHECKLIST.md](docs/QA_CHECKLIST.md).
+Seguirla prima di ogni rilascio per garantire copertura funzionale completa.
 
 ## FAQ
 **È possibile usare un provider OSRM esterno?**
